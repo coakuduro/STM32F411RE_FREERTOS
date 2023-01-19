@@ -86,7 +86,8 @@ to exclude the API function. */
 #define INCLUDE_vTaskSuspend			1
 #define INCLUDE_vTaskDelayUntil			1
 #define INCLUDE_vTaskDelay				1
-
+#define INCLUDE_xTaskGetIdleTaskHandle 			1  //added
+#define INCLUDE pxTaskGetStackStart				1 //added
 /* Cortex-M specific definitions. */
 #ifdef __NVIC_PRIO_BITS
 	/* __BVIC_PRIO_BITS will be specified when CMSIS is being used. */
@@ -121,6 +122,6 @@ standard names. */
 #define vPortSVCHandler SVC_Handler
 #define xPortPendSVHandler PendSV_Handler
 #define xPortSysTickHandler SysTick_Handler
-
+#include "SEGGER_SYSVIEW_FreeRTOS.h"
 #endif /* FREERTOS_CONFIG_H */
 

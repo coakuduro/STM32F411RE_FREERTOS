@@ -43,6 +43,12 @@
 								</option>
 								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.includepaths.813165691" name="Include paths (-I)" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.includepaths" useByScannerDiscovery="false" valueType="includePath">
 									<listOptionValue builtIn="false" value="../Core/Inc"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Third party/SEGGER/Config}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Third party/SEGGER/OS}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Third party/SEGGER/SEGGER}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Third party/SEGGER/SEGGER}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Third party/SEGGER/Config}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Third party/SEGGER}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Third party/FreeRTOS}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Third party/FreeRTOS/include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Third party/FreeRTOS/portable/GCC/ARM_CM4F}&quot;"/>
